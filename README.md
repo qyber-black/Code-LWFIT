@@ -38,13 +38,6 @@ The analysis results of LWFIT used in that paper for a specific dataset, using
 the Matlab live scripts above are in the wiki, with all results computed and also
 converted to PDF.
 
-## Contact
-
-In case you have any problems with the code, you can send an e-mail to 
-[lwfit@qyber.black](mailto:lwfit@qyber.black) to open an issue in our
-issue tracking system. We will get back to you as soon as we can. Please
-carefully explain the problem so that we are able to help you.
-
 ## Locations
 
 The code is developed and maintained on [qyber\\black](https://qyber.black)
