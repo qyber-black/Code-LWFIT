@@ -4,10 +4,10 @@ LWFIT code for GABA quantification from MEGA-PRESS magnetic resonance spectra. I
 based on a peak integration approach in the frequency domain to estimate the
 concentration of the metabolites.
 
-The code requires matlab to run and has been tested with Matlab R2021a 
-(9.10.0.1602886) under Linux. To use the code, start with the Matlab live scripts
-Notebook-XX.mlx which show how to use the individual functions. Further details are
-in the comments of the relevant functions.
+The code requires matlab to run.  It was originally developed using matlab 2017b and 
+has also been tested with Matlab R2021a (9.10.0.1602886) under Linux. To use the code, 
+start with the Matlab live scripts Notebook-XX.mlx which show how to use the individual 
+functions. Further details are in the comments of the relevant functions.
 
 LWFIT aligns the edit-off and difference spectra so that the main NAA peak is
 precisely at 2.01 ppm and then calculates the areas for
@@ -50,7 +50,7 @@ The mirrors are only for convenience, accessibility and backup.
 
 ## People
 
-* [Sophie G Shermer](https://qyber.black/lw1660), [Physics](https://www.swansea.ac.uk/physics), [Swansea University](https://www.swansea.ac.uk/)
+* [Sophie M Shermer](https://qyber.black/lw1660), [Physics](https://www.swansea.ac.uk/physics), [Swansea University](https://www.swansea.ac.uk/)
 * [Christopher W Jenkins](https://qyber.black/chris), [Physics](https://www.swansea.ac.uk/physics) and [Centre for Nanohealth](https://www.swansea.ac.uk/nanohealth/facilities/) and [Clinical Imaging Unit](https://www.swansea.ac.uk/medicine/research/researchfacilities/jointclinicalresearchfacility/clinicalimagingfacility/), [Swansea University](https://www.swansea.ac.uk/); [Cardiff University Brain Research Imaging Centre (CUBRIC)](https://www.cardiff.ac.uk/cardiff-university-brain-research-imaging-centre)
 * [Frank C Langbein](https://qyber.black/xis10z), [School of Computer Science and Informatics](https://www.cardiff.ac.uk/computer-science), [Cardiff University](https://www.cardiff.ac.uk/); [langbein.org](https://langbein.org/)
 * [Max Chandler](https://qyber.black/max), [School of Computer Science and Informatics](https://www.cardiff.ac.uk/computer-science), [Cardiff University](https://www.cardiff.ac.uk/)
