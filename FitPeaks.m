@@ -6,7 +6,7 @@ function out = FitPeaks(WS_OFF,WS_ON,TITLE)
 
 % SPDX-License-Identifier: AGPL-3.0-or-later
 %
-% Copyright (C) 2021, Sophie G Shermer, Swansea University
+% Copyright (C) 2021, Sophie M Shermer, Swansea University
 
 WS_OFF.spec = GetSpectra(WS_OFF.spec,2^14);
 for k=1:length(WS_ON)

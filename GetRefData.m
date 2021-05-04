@@ -14,7 +14,7 @@ function [COMBI,res] = GetRefData(IN_WS_ON,IN_WS_OFF)
 
 % SPDX-License-Identifier: AGPL-3.0-or-later
 %
-% Copyright (C) 2021, Sophie G Shermer, Swansea University
+% Copyright (C) 2021, Sophie M Shermer, Swansea University
 
 WS_ON  = GetData(IN_WS_ON);
 FIELDS = fields(WS_ON);

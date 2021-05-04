@@ -5,7 +5,7 @@ function M = PlotLineWidthAll(PeakFit)
 
 % SPDX-License-Identifier: AGPL-3.0-or-later
 %
-% Copyright (C) 2021, Sophie G Shermer, Swansea University
+% Copyright (C) 2021, Sophie M Shermer, Swansea University
 
 M1 = cell2mat(arrayfun(@(n)cellfun(@(x)x.c*123.2*2,PeakFit{n}.fitH20),[1:length(PeakFit)],'UniformOutput',false)');
 M2 = cell2mat(arrayfun(@(n)cellfun(@(x)x.c*123.2*2,PeakFit{n}.fitNAA),[1:length(PeakFit)],'UniformOutput',false)');

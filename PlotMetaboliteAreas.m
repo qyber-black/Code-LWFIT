@@ -2,7 +2,7 @@ function out = PlotMetaboliteAreas(MPFit,conc,TITLE,EditEfficiencyGABA,outliers)
 
 % SPDX-License-Identifier: AGPL-3.0-or-later
 %
-% Copyright (C) 2021, Sophie G Shermer, Swansea University
+% Copyright (C) 2021, Sophie M Shermer, Swansea University
 
 STYLE = {'o','s','>','<'};
 COLOR = [0    0.4470    0.7410;

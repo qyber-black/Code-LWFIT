@@ -2,7 +2,7 @@ function MakeTableLorentzFit(LFit)
 
 % SPDX-License-Identifier: AGPL-3.0-or-later
 %
-% Copyright (C) 2021, Sophie G Shermer, Swansea University
+% Copyright (C) 2021, Sophie M Shermer, Swansea University
 
 % frequency offsets in ppm
 Freq = [cell2mat(cellfun(@(y)cellfun(@(x)x.f0,y.fitH20),LFit,'UniformOutput',false)'), cellfun(@(x)x.fitNAA.f0,LFit)', 2.01-cellfun(@(x)x.fitNAA.f0, LFit)']

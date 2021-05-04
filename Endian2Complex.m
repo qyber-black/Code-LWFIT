@@ -6,7 +6,7 @@ function out = Endian2Complex(DATA)
 
 % SPDX-License-Identifier: AGPL-3.0-or-later
 %
-% Copyright (C) 2021, Sophie G Shermer, Swansea University
+% Copyright (C) 2021, Sophie M Shermer, Swansea University
 
 N1 = length(DATA);
 if mod(N1,4) ~= 0

@@ -18,7 +18,7 @@ function spec = GetSpectra(spec,N_fft)
 
 % SPDX-License-Identifier: AGPL-3.0-or-later
 %
-% Copyright (C) 2021, Sophie G Shermer, Swansea University
+% Copyright (C) 2021, Sophie M Shermer, Swansea University
 
 scaling = spec.Sampling_frequency/spec.Transmitter_frequency * 1e6;
 if ~exist('N_fft','var')

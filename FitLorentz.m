@@ -16,7 +16,7 @@ function [fl1,gof,Error] = FitLorentz(f,FT,f1,f2,Color,LOC)
 
 % SPDX-License-Identifier: AGPL-3.0-or-later
 %
-% Copyright (C) 2021, Sophie G Shermer, Swansea University
+% Copyright (C) 2021, Sophie M Shermer, Swansea University
 
 % define fit type (Lorentzian) with independent variable x
 % parameters to fit: a -- amplitude, c -- width, f0 centre freq

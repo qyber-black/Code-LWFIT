@@ -6,7 +6,7 @@ function prot = GetProtFromImageNew(SIEMENS)
 
 % SPDX-License-Identifier: AGPL-3.0-or-later
 %
-% Copyright (C) 2021, Sophie G Shermer, Swansea University
+% Copyright (C) 2021, Sophie M Shermer, Swansea University
 
 % extract protocol from DICOM into asc file
 [status,str] = system(sprintf('sed -n "/### ASCCONV BEGIN/,/### ASCCONV END ###/p" "%s" | sed -e "s,###.*###,,"',SIEMENS));

@@ -27,7 +27,7 @@ function [combi_smooth, combi] = CombineSpectra_RAW(data_in,N_fft,filter)
 
 % SPDX-License-Identifier: AGPL-3.0-or-later
 %
-% Copyright (C) 2021, Sophie G Shermer, Swansea University
+% Copyright (C) 2021, Sophie M Shermer, Swansea University
 
 if ~exist('N_fft','var')
     N_fft = 4096;

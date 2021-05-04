@@ -22,7 +22,7 @@ classdef twix_map_obj < handle
 
 % SPDX-License-Identifier: AGPL-3.0-or-later
 %
-% Copyright (C) 2021, Sophie G Shermer, Swansea University
+% Copyright (C) 2021, Sophie M Shermer, Swansea University
 
     properties(Dependent=true)
         % flags

@@ -9,7 +9,7 @@ function [WS_ON_RAW,WS_OFF_RAW] = ReadRawDataSeries(TOPDIR,WS_ON,WS_OFF)
 
 % SPDX-License-Identifier: AGPL-3.0-or-later
 %
-% Copyright (C) 2021, Sophie G Shermer, Swansea University
+% Copyright (C) 2021, Sophie M Shermer, Swansea University
 
 PWD = pwd; cd(TOPDIR);
 DIR = dir('G*');

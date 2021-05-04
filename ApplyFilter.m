@@ -18,7 +18,7 @@ function filtered = ApplyFilter(data,fft_res,h)
 
 % SPDX-License-Identifier: AGPL-3.0-or-later
 %
-% Copyright (C) 2021, Sophie G Shermer, Swansea University
+% Copyright (C) 2021, Sophie M Shermer, Swansea University
 
 L = size(data.FID,2);
 N = length(h);

@@ -4,9 +4,9 @@ LWFIT code for GABA quantification from MEGA-PRESS magnetic resonance spectra. I
 based on a peak integration approach in the frequency domain to estimate the
 concentration of the metabolites.
 
-The code requires matlab to run.  It was originally developed using matlab 2017b and 
-has also been tested with Matlab R2021a (9.10.0.1602886) under Linux. To use the code, 
-start with the Matlab live scripts Notebook-XX.mlx which show how to use the individual 
+The code requires matlab to run.  It was originally developed using matlab 2017b and
+has also been tested with Matlab R2021a (9.10.0.1602886) under Linux. To use the code,
+start with the Matlab live scripts Notebook-XX.mlx which show how to use the individual
 functions. Further details are in the comments of the relevant functions.
 
 LWFIT aligns the edit-off and difference spectra so that the main NAA peak is
@@ -25,7 +25,7 @@ indicated that numerical integration with minimal pre-processing yielded the mos
 accurate estimation results of the methods considered. While more aggressive noise
 filters aesthetically improve the quality of the spectra, their application tends to
 exacerbate underestimation of GABA, especially for weak signals, suggesting that
-filtering eliminates some of the GABA signal present in the data. So we only 
+filtering eliminates some of the GABA signal present in the data. So we only
 perform zero-filling (4096 points) and a frequency shift to align the NAA peak.
 
 The code has been used in the following paper and more details are available there:
@@ -57,7 +57,7 @@ The mirrors are only for convenience, accessibility and backup.
 
 ## License
 
-Copyright (C) 2019-2021, Sophie Shermer, Swansea University
+Copyright (C) 2019-2021, Sophie M Shermer, Swansea University
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
