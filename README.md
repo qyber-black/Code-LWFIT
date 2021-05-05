@@ -55,6 +55,13 @@ The mirrors are only for convenience, accessibility and backup.
 * [Frank C Langbein](https://qyber.black/xis10z), [School of Computer Science and Informatics](https://www.cardiff.ac.uk/computer-science), [Cardiff University](https://www.cardiff.ac.uk/); [langbein.org](https://langbein.org/)
 * [Max Chandler](https://qyber.black/max), [School of Computer Science and Informatics](https://www.cardiff.ac.uk/computer-science), [Cardiff University](https://www.cardiff.ac.uk/)
 
+## Citation
+
+ Sophie Shermer, Frank Langbein, Christopher Jenkins, Max Chandler. **Code - LWFIT**. _FigShare_, Software. May 2021.
+[[DOI:10.6084/m9.figshare.14540757.v1]](https://doi.org/10.6084/m9.figshare.14540757.v1)
+[[DEV:https://qyber.black/mrs/code-lwfit]](https://qyber.black/mrs/code-lwfit)
+[[MIRROR:https://github.com/xis10z/Code-LWFIT/tree/v1.0]](https://github.com/xis10z/Code-LWFIT/tree/v1.0)
+
 ## License
 
 Copyright (C) 2019-2021, Sophie M Shermer, Swansea University
