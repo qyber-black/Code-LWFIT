@@ -32,7 +32,7 @@ The code has been used in the following paper and more details are available the
 
 CW Jenkins, M Chandler, FC Langbein, SM Shermer. **Benchmarking GABA Quantification:
 A Ground Truth Data Set and Comparative Analysis of TARQUIN, LCModel, jMRUI and
-Gannet.** [[arxiv:1909.02163]](https://arxiv.org/abs/1909.02163).
+Gannet.** [[arxiv:1909.02163]](https://arxiv.org/abs/1909.02163)
 
 The analysis results of LWFIT used in that paper for a specific dataset, using
 the Matlab live scripts above are in the wiki, with all results computed and also
