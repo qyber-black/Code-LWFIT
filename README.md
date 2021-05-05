@@ -41,7 +41,7 @@ converted to PDF.
 ## Locations
 
 The code is developed and maintained on [qyber\\black](https://qyber.black)
-at https://qyber.black/pca/code-lwfit
+at https://qyber.black/mrs/code-lwfit
 
 This code is mirrored at
 * https://github.com/xis10z/Code-LWFIT
