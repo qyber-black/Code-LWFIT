@@ -55,6 +55,10 @@ The mirrors are only for convenience, accessibility and backup.
 * [Frank C Langbein](https://qyber.black/xis10z), [School of Computer Science and Informatics](https://www.cardiff.ac.uk/computer-science), [Cardiff University](https://www.cardiff.ac.uk/); [langbein.org](https://langbein.org/)
 * [Max Chandler](https://qyber.black/max), [School of Computer Science and Informatics](https://www.cardiff.ac.uk/computer-science), [Cardiff University](https://www.cardiff.ac.uk/)
 
+## Contact
+
+For any general enquiries relating to this project, [send an e-mail](mailto:gitlab+mrs-code-lwfit-76-issue-@qyber.black).
+
 ## Citation
 
  SM Shermer, FC Langbein, CW Jenkins, M Chandler. **Code - LWFIT**. Version 1.0. _FigShare_, Software. May 2021.
