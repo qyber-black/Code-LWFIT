@@ -44,7 +44,7 @@ The code is developed and maintained on [qyber\\black](https://qyber.black)
 at https://qyber.black/mrs/code-lwfit
 
 This code is mirrored at
-* https://github.com/xis10z/Code-LWFIT
+* https://github.com/qyber-black/Code-LWFIT
 
 The mirrors are only for convenience, accessibility and backup.
 
@@ -64,7 +64,7 @@ For any general enquiries relating to this project, [send an e-mail](mailto:gitl
  SM Shermer, FC Langbein, CW Jenkins, M Chandler. **Code - LWFIT**. Version 1.0. _FigShare_, Software. May 2021.
 [[DOI:10.6084/m9.figshare.14540757.v1]](https://doi.org/10.6084/m9.figshare.14540757.v1)
 [[DEV:https://qyber.black/mrs/code-lwfit]](https://qyber.black/mrs/code-lwfit)
-[[MIRROR:https://github.com/xis10z/Code-LWFIT/tree/v1.0]](https://github.com/xis10z/Code-LWFIT/tree/v1.0)
+[[MIRROR:https://github.com/qyber-black/Code-LWFIT/tree/v1.0]](https://github.com/qyber-black/Code-LWFIT/tree/v1.0)
 
 ## License
 
