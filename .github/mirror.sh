@@ -15,7 +15,7 @@ fi
 
 echo
 echo "# Cloning github wiki"
-git clone "https://x-access-token:$GITHUB_TOKEN}@${GITHUB_SERVER_URL#https://}/$GITHUB_REPOSITORY.wiki.git"
+git clone "https://x-access-token:${GITHUB_TOKEN}@${GITHUB_SERVER_URL#https://}/$GITHUB_REPOSITORY.wiki.git"
 wiki_dir="`basename $GITHUB_REPOSITORY.wiki`"
 
 echo
