@@ -10,8 +10,8 @@ jobs:
   mirror:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - name: mirror
       run: ./.github/mirror.sh
       env:
-        WIKI_PERSONAL_ACCESS_TOKEN: ${{ secrets.WIKI_PERSONAL_ACCESS_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -2,12 +2,9 @@
 
 set -e
 
-if [ -z "${WIKI_PERSONAL_ACCESS_TOKEN}" ]; then
-  if [ -z "${GITHUB_PERSONAL_ACCESS_TOKEN}" ] ; then
-    echo "WIKI_PERSONAL_ACCESS_TOKEN not set"
-    exit 1
-  fi
-  WIKI_PERSONAL_ACCESS_TOKEN="${GITHUB_PERSONAL_ACCESS_TOKEN}"
+if [ -z "${GITHUB_TOKEN}" ]; then
+  echo "GITHUB_TOKEN not set"
+  exit 1
 fi
 if [ -z "${GITHUB_SERVER_URL}" ]; then
   GITHUB_SERVER_URL=https://github.com
@@ -18,7 +15,7 @@ fi
 
 echo
 echo "# Cloning github wiki"
-git clone "https://${WIKI_PERSONAL_ACCESS_TOKEN}@${GITHUB_SERVER_URL#https://}/$GITHUB_REPOSITORY.wiki.git"
+git clone "https://x-access-token:$GITHUB_TOKEN}@${GITHUB_SERVER_URL#https://}/$GITHUB_REPOSITORY.wiki.git"
 wiki_dir="`basename $GITHUB_REPOSITORY.wiki`"
 
 echo
@@ -29,7 +26,7 @@ git config --global user.email "frank@langbein.org"
 git config --global user.name "Frank C Langbein (via github actions)"
 git config pull.rebase false
 git fetch qyber master
-git merge --no-edit qyber/master
+git merge --strategy-option=theirs --no-edit qyber/master
 cd ..
 
 echo
